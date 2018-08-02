@@ -72,17 +72,47 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Principal\MCadenas.Designer.vb">
+      <DependentUpon>MCadenas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\MCadenas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Principal\MFechas.Designer.vb">
+      <DependentUpon>MFechas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\MFechas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Matriz.Designer.vb">
-      <DependentUpon>Matriz.vb</DependentUpon>
+    <Compile Include="Principal\MSecuencias.Designer.vb">
+      <DependentUpon>MSecuencias.vb</DependentUpon>
     </Compile>
-    <Compile Include="Matriz.vb">
+    <Compile Include="Principal\MSecuencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\MVarios.Designer.vb">
+      <DependentUpon>MVarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\MVarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Portada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Portada.Designer.vb">
+      <DependentUpon>Portada.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Secuencias\Matrices.Designer.vb">
+      <DependentUpon>Matrices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Secuencias\Matrices.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -102,11 +132,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Principal\MCadenas.resx">
+      <DependentUpon>MCadenas.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Matriz.resx">
-      <DependentUpon>Matriz.vb</DependentUpon>
+    <EmbeddedResource Include="Principal\MFechas.resx">
+      <DependentUpon>MFechas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\MSecuencias.resx">
+      <DependentUpon>MSecuencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\MVarios.resx">
+      <DependentUpon>MVarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Portada.resx">
+      <DependentUpon>Portada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Secuencias\Matrices.resx">
+      <DependentUpon>Matrices.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -126,6 +171,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bkgnd.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
