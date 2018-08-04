@@ -1,11 +1,11 @@
 ﻿Public Class MVarios
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim menu As New Menu
-        menu.Show()
+        MMenu.Show()
         Me.Hide()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        MsgBox("Hasta Luego")
         Me.Close()
         End
     End Sub

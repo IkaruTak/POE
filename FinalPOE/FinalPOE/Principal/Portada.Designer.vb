@@ -41,9 +41,9 @@ Partial Class Portada
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(481, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(343, 110)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(104, 122)
+        Me.PictureBox1.Size = New System.Drawing.Size(360, 367)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -99,7 +99,7 @@ Partial Class Portada
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(509, 334)
+        Me.Button1.Location = New System.Drawing.Point(547, 401)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 5
@@ -108,7 +108,7 @@ Partial Class Portada
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(262, 334)
+        Me.Button2.Location = New System.Drawing.Point(262, 401)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 6
@@ -138,7 +138,7 @@ Partial Class Portada
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(597, 369)
+        Me.ClientSize = New System.Drawing.Size(634, 436)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -147,6 +147,8 @@ Partial Class Portada
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.MaximumSize = New System.Drawing.Size(650, 475)
+        Me.MinimumSize = New System.Drawing.Size(650, 475)
         Me.Name = "Portada"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Portada"

@@ -47,7 +47,7 @@ Partial Class MFechas
         Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.GroupBox1.Location = New System.Drawing.Point(83, 148)
+        Me.GroupBox1.Location = New System.Drawing.Point(94, 148)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(440, 226)
         Me.GroupBox1.TabIndex = 18
@@ -63,7 +63,7 @@ Partial Class MFechas
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(187, 81)
         Me.Button5.TabIndex = 0
-        Me.Button5.Text = "Fechas"
+        Me.Button5.Text = "Intereses"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Button4
@@ -75,7 +75,7 @@ Partial Class MFechas
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(187, 81)
         Me.Button4.TabIndex = 0
-        Me.Button4.Text = "Cadenas"
+        Me.Button4.Text = "Vencimientos"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button3
@@ -87,12 +87,12 @@ Partial Class MFechas
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(187, 81)
         Me.Button3.TabIndex = 0
-        Me.Button3.Text = "Secuencias"
+        Me.Button3.Text = "Intervalos"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(533, 407)
+        Me.Button2.Location = New System.Drawing.Point(547, 401)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 17
@@ -101,7 +101,7 @@ Partial Class MFechas
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 407)
+        Me.Button1.Location = New System.Drawing.Point(12, 401)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 16
@@ -112,7 +112,7 @@ Partial Class MFechas
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(505, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(518, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(104, 122)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -125,7 +125,7 @@ Partial Class MFechas
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label4.Location = New System.Drawing.Point(15, 9)
+        Me.Label4.Location = New System.Drawing.Point(9, 9)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(0, 16)
         Me.Label4.TabIndex = 21
@@ -137,7 +137,7 @@ Partial Class MFechas
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label2.Location = New System.Drawing.Point(271, 41)
+        Me.Label2.Location = New System.Drawing.Point(282, 41)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 23)
         Me.Label2.TabIndex = 20
@@ -150,7 +150,7 @@ Partial Class MFechas
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label1.Location = New System.Drawing.Point(167, 9)
+        Me.Label1.Location = New System.Drawing.Point(178, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(272, 32)
         Me.Label1.TabIndex = 19
@@ -168,7 +168,7 @@ Partial Class MFechas
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.FinalPOE.My.Resources.Resources.bkgnd
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(621, 442)
+        Me.ClientSize = New System.Drawing.Size(634, 436)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -176,6 +176,8 @@ Partial Class MFechas
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.MaximumSize = New System.Drawing.Size(650, 475)
+        Me.MinimumSize = New System.Drawing.Size(650, 475)
         Me.Name = "MFechas"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Fechas"

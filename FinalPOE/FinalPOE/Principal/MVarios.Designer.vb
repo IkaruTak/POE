@@ -176,6 +176,8 @@ Partial Class MVarios
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.MaximumSize = New System.Drawing.Size(650, 475)
+        Me.MinimumSize = New System.Drawing.Size(650, 475)
         Me.Name = "MVarios"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Varios"

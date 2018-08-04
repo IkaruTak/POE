@@ -72,6 +72,48 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Principal\Cadenas\Busqueda.Designer.vb">
+      <DependentUpon>Busqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Busqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Encriptado.Designer.vb">
+      <DependentUpon>Encriptado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Encriptado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Palindromo.Designer.vb">
+      <DependentUpon>Palindromo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Palindromo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Reemplazo.Designer.vb">
+      <DependentUpon>Reemplazo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Cadenas\Reemplazo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Fechas\Interes.Designer.vb">
+      <DependentUpon>Interes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Fechas\Interes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Fechas\Intervalos.Designer.vb">
+      <DependentUpon>Intervalos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Fechas\Intervalos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Fechas\Vencimiento.Designer.vb">
+      <DependentUpon>Vencimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Fechas\Vencimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Principal\MCadenas.Designer.vb">
       <DependentUpon>MCadenas.vb</DependentUpon>
     </Compile>
@@ -103,10 +145,10 @@
       <DependentUpon>Portada.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\Menu.Designer.vb">
-      <DependentUpon>Menu.vb</DependentUpon>
+    <Compile Include="Principal\MMenu.Designer.vb">
+      <DependentUpon>MMenu.vb</DependentUpon>
     </Compile>
-    <Compile Include="Principal\Menu.vb">
+    <Compile Include="Principal\MMenu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Principal\Secuencias\Matrices.Designer.vb">
@@ -130,8 +172,41 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Principal\Secuencias\Primos.Designer.vb">
+      <DependentUpon>Primos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Secuencias\Primos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Secuencias\Saturno.Designer.vb">
+      <DependentUpon>Saturno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Secuencias\Saturno.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Principal\Cadenas\Busqueda.resx">
+      <DependentUpon>Busqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Cadenas\Encriptado.resx">
+      <DependentUpon>Encriptado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Cadenas\Palindromo.resx">
+      <DependentUpon>Palindromo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Cadenas\Reemplazo.resx">
+      <DependentUpon>Reemplazo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Fechas\Interes.resx">
+      <DependentUpon>Interes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Fechas\Intervalos.resx">
+      <DependentUpon>Intervalos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Fechas\Vencimiento.resx">
+      <DependentUpon>Vencimiento.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal\MCadenas.resx">
       <DependentUpon>MCadenas.vb</DependentUpon>
     </EmbeddedResource>
@@ -147,8 +222,8 @@
     <EmbeddedResource Include="Principal\Portada.resx">
       <DependentUpon>Portada.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal\Menu.resx">
-      <DependentUpon>Menu.vb</DependentUpon>
+    <EmbeddedResource Include="Principal\MMenu.resx">
+      <DependentUpon>MMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\Secuencias\Matrices.resx">
       <DependentUpon>Matrices.vb</DependentUpon>
@@ -158,6 +233,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Secuencias\Primos.resx">
+      <DependentUpon>Primos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Secuencias\Saturno.resx">
+      <DependentUpon>Saturno.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -175,5 +256,6 @@
   <ItemGroup>
     <None Include="Resources\bkgnd.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
