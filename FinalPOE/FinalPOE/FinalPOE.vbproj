@@ -96,12 +96,6 @@
     <Compile Include="Principal\Cadenas\Reemplazo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\Fechas\Interes.Designer.vb">
-      <DependentUpon>Interes.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Principal\Fechas\Interes.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Principal\Fechas\Intervalos.Designer.vb">
       <DependentUpon>Intervalos.vb</DependentUpon>
     </Compile>
@@ -184,6 +178,24 @@
     <Compile Include="Principal\Secuencias\Saturno.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Principal\Varios\Excel.Designer.vb">
+      <DependentUpon>Excel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Varios\Excel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Varios\Explorer.Designer.vb">
+      <DependentUpon>Explorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Varios\Explorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Varios\PicDato.Designer.vb">
+      <DependentUpon>PicDato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Varios\PicDato.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Principal\Cadenas\Busqueda.resx">
@@ -197,9 +209,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\Cadenas\Reemplazo.resx">
       <DependentUpon>Reemplazo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Principal\Fechas\Interes.resx">
-      <DependentUpon>Interes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\Fechas\Intervalos.resx">
       <DependentUpon>Intervalos.vb</DependentUpon>
@@ -239,6 +248,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\Secuencias\Saturno.resx">
       <DependentUpon>Saturno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Varios\Excel.resx">
+      <DependentUpon>Excel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Varios\Explorer.resx">
+      <DependentUpon>Explorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Varios\PicDato.resx">
+      <DependentUpon>PicDato.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

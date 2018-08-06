@@ -25,7 +25,6 @@ Partial Class MFechas
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MFechas))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -42,7 +41,6 @@ Partial Class MFechas
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox1.Controls.Add(Me.Button5)
         Me.GroupBox1.Controls.Add(Me.Button4)
         Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -54,24 +52,12 @@ Partial Class MFechas
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Menú"
         '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button5.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button5.Location = New System.Drawing.Point(129, 128)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(187, 81)
-        Me.Button5.TabIndex = 0
-        Me.Button5.Text = "Intereses"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button4.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button4.Location = New System.Drawing.Point(232, 39)
+        Me.Button4.Location = New System.Drawing.Point(231, 82)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(187, 81)
         Me.Button4.TabIndex = 0
@@ -83,7 +69,7 @@ Partial Class MFechas
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button3.Location = New System.Drawing.Point(23, 39)
+        Me.Button3.Location = New System.Drawing.Point(22, 82)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(187, 81)
         Me.Button3.TabIndex = 0
@@ -189,7 +175,6 @@ Partial Class MFechas
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button5 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
